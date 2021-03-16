@@ -309,7 +309,6 @@ footer>* {
         justify-content: space-around;
     }
     #contact {
-        /* flex-direction: row; */
         padding: 10% 0 0 0;
     }
     #contact>section {
