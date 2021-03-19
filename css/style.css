@@ -32,10 +32,20 @@ html {
 
 .fa-js-square {
     color: rgb(239, 216, 29);
+    
+    
 }
 
 .fa-html5 {
     color: rgb(244, 71, 11);
+}
+
+.fa-node-js {
+color: rgb(104, 159, 99);
+}
+
+.fa-bootstrap {
+color: rgb(121, 82, 179);
 }
 
 #email-link {
