@@ -25,10 +25,7 @@ body {
 #about,
 #skills,
 #projects {
-  border-bottom: 3px solid rgba(128, 128, 128, 0.397);
-  border-radius: 20px;
-  padding-bottom: 5rem;
-  margin: 10% auto 0 auto;
+  margin: 8% auto 0 auto;
 }
 
 /* COLORS */
@@ -399,9 +396,7 @@ footer > * {
     justify-content: center;
     font-size: 4rem;
   }
-  #about {
-    margin: 10% auto 0% auto;
-  }
+
   #about > * {
     margin-top: 5%;
   }
