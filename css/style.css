@@ -359,9 +359,7 @@ footer > * {
   #intro {
     margin-top: 0;
   }
-  main > section {
-    padding-top: 3%;
-  }
+
   p,
   li,
   ul,
@@ -430,7 +428,7 @@ footer > * {
     border-radius: 10px;
 
     width: 80%;
-    margin: 10% auto 10% auto;
+    margin: 10% auto 0% auto;
   }
   #skills h2 {
     margin-top: 7rem;
