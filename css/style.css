@@ -8,7 +8,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 
@@ -25,7 +25,7 @@ body {
 #about,
 #skills,
 #projects {
-  margin: 8% auto 0 auto;
+  margin: 2rem auto 0 auto;
 }
 
 /* COLORS */
@@ -85,7 +85,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-weight: 700;
   font-size: 2.3rem;
 }
@@ -110,12 +110,12 @@ a {
 }
 
 #other-skills li::before {
-  content: '-';
+  content: "-";
   display: inline-block;
 }
 
 ::placeholder {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 main {
@@ -175,7 +175,7 @@ nav {
 /* ****** MOBILE FIRST ****** */
 
 main > section {
-  padding-top: 5%;
+  padding-top: 2rem;
 }
 
 header ul {
@@ -241,13 +241,13 @@ header ul > li {
   background-size: 100% auto;
 }
 #mush {
-  background-image: url('https://p42.f3.n0.cdn.getcloudapp.com/items/v1uYGxWY/05073f96-7aa0-48d2-af4a-1229d349dbd3.gif?source=viewer&v=840f36f19cc9d3b45a37ef3ebbcd4ea5');
+  background-image: url("https://p42.f3.n0.cdn.getcloudapp.com/items/v1uYGxWY/05073f96-7aa0-48d2-af4a-1229d349dbd3.gif?source=viewer&v=840f36f19cc9d3b45a37ef3ebbcd4ea5");
 }
 #giorgia {
-  background-image: url('https://p42.f3.n0.cdn.getcloudapp.com/items/qGu54J0v/126e1481-7c59-47eb-84d8-82fccdd4fac3.gif?source=viewer&v=4066e6df4f0c523db4c703938c3663a6');
+  background-image: url("https://p42.f3.n0.cdn.getcloudapp.com/items/qGu54J0v/126e1481-7c59-47eb-84d8-82fccdd4fac3.gif?source=viewer&v=4066e6df4f0c523db4c703938c3663a6");
 }
 #penguin {
-  background-image: url('https://p42.f3.n0.cdn.getcloudapp.com/items/o0uelnr1/66a90245-7aa4-48a2-aa2a-55440c513760.gif?v=9a803ddf75779d52b3da7581c9addc41');
+  background-image: url("https://p42.f3.n0.cdn.getcloudapp.com/items/o0uelnr1/66a90245-7aa4-48a2-aa2a-55440c513760.gif?v=9a803ddf75779d52b3da7581c9addc41");
 }
 .project-info {
   display: flex;
@@ -300,7 +300,6 @@ header ul > li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10% 5% 0 5%;
 }
 
 #contact > section {
@@ -395,10 +394,8 @@ footer > * {
     font-size: 4rem;
   }
 
-  #about > * {
-    margin-top: 5%;
-  }
   #about-blurb {
+    margin-top: 1.5rem;
     width: 80ch;
   }
   #projects > * {
@@ -428,10 +425,6 @@ footer > * {
     border-radius: 10px;
 
     width: 80%;
-    margin: 10% auto 0% auto;
-  }
-  #skills h2 {
-    margin-top: 7rem;
   }
 
   .skill-icons > i {
@@ -444,9 +437,6 @@ footer > * {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-  }
-  #contact {
-    padding: 10% 0 0 0;
   }
   #contact > section {
     width: 100%;
